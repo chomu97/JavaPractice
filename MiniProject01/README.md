@@ -54,3 +54,84 @@
   + 로그아웃
 
     + 로그인 이전 화면으로 되돌아갑니다.
+
+## 출력 결과
+
++ 회원가입 화면(매니저)
+
+![image](https://user-images.githubusercontent.com/24910571/199405174-34feb008-82e4-40d2-b3b1-189c4db8eade.png)
+
+매니저 인증키는 manager로 설정해두었기 때문에 해당 인증키로 가입합니다.
+
++ 회원가입 화면(유저)
+
+![image](https://user-images.githubusercontent.com/24910571/199405347-80333c89-13c1-477b-9afb-ebb891a26567.png)
+
+유저의 경우에는 핸드폰번호를 입력받습니다. ( 문자 수신을 위함 )
+
++ 로그인 화면(매니저)
+
+![image](https://user-images.githubusercontent.com/24910571/199405566-1335bc1c-b58b-4af4-90b3-a3403b6836ea.png)
+
++ 로그인 화면 (유저)
+
+![image](https://user-images.githubusercontent.com/24910571/199405888-00c6fe77-155e-4bc9-bef4-883ab6e3c1bd.png)
+
+유저의 경우 회원가입 한 이후 담당 매니저가 승인해야 로그인할 수 있습니다.
+
+
++ 조회 화면(매니저)
+  현재 테스트를 위해 DummyManager0~4, DummyUser0~99, pw는 모두 1234로 설정해두었습니다.
+  전체 조회 시에는 모든 유저가 보이게 됩니다.
+ 
+![image](https://user-images.githubusercontent.com/24910571/199406153-c2d5ffb7-d4f5-41e8-ad52-cbb78bfdb699.png)
+  
+  로그인 이후, 조회 화면입니다. 아까 회원가입한 User01이 가입승인이 안되어있습니다.
+
+![image](https://user-images.githubusercontent.com/24910571/199406385-76be403c-a1b8-430e-a6d4-4c03810e42cf.png)
+  
+  유저 id로 검색해서 조회해볼 수 있습니다.
+  
++ 승인 화면(매니저)
+ 
+![image](https://user-images.githubusercontent.com/24910571/199406292-101eb53c-40a4-44fc-9e9c-2fcc08ace7f2.png)
+  
+  본인 담당 유저만 승인할 수 있습니다.
+
++ 문자 발송 화면(매니저)
+  
+![image](https://user-images.githubusercontent.com/24910571/199406582-7cd6a022-cafb-4c7f-b1c2-209668b66e3a.png)
+  
+  실제 문자를 발송하지는 않지만, 문자 승인 여부를 확인한 후 본인 담당 유저에게 문자를 발송한다고 가정합니다.
+  
++ 로그아웃(매니저)
+ 
+![image](https://user-images.githubusercontent.com/24910571/199406649-e66b635b-fa47-4ab9-99fc-9766fbdd8fb4.png)
+  
+  로그인 이전 화면으로 되돌아갑니다.
+
++ 로그인(유저)
+ 
+![image](https://user-images.githubusercontent.com/24910571/199406838-952376f4-1983-4af7-b50c-5f9d78f7c025.png)
+  
+  유저의 경우 조회/정보 변경/로그아웃만 있습니다.
+  
++ 조회(유저)
+ 
+![image](https://user-images.githubusercontent.com/24910571/199406912-d15dad5c-b43b-4a92-9dc5-643ce6d37794.png)
+  
+  본인의 정보만 조회할 수 있습니다. 이 경우 password까지 조회 가능합니다.
+
++ 정보 변경(유저)
+ 
+![image](https://user-images.githubusercontent.com/24910571/199407014-a9537e06-8c88-470e-9365-036b8085431c.png)
+  
+  전화번호 또는 문자수신여부를 변경할 수 있습니다.
+  
++ 로그아웃(유저)
+  
+  매니저의 경우와 동일합니다.
+
+
+
+
